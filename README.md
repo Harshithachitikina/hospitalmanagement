@@ -1,144 +1,92 @@
-# 🏥 CityCare Hospital Management System
+# 🏥 Omega Hospital Management System
 
-A modern Hospital Management System built using **Python Flask**, **SQLite**, **HTML**, **CSS**, **Bootstrap**, and **JavaScript**. This application helps hospitals efficiently manage patients, doctors, staff, appointments, and administrative operations through an easy-to-use web interface.
+A simple and responsive **Hospital Management System** developed using **Python Flask** and **SQLite**. This project provides an easy-to-use interface for managing hospital staff information and can be extended to include patients, doctors, appointments, and billing.
 
 ---
 
 ## 📌 Features
 
-### 👨‍⚕️ Staff Management
-- Add, edit, delete hospital staff
-- Search by name, email, or phone
-- Filter staff by role
-- Staff directory with specialization and experience
-- Sort table columns
-
-### 🩺 Doctor Management
-- Add doctor details
-- Department & specialization
-- Years of experience
-- Contact information
-
-### 👤 Patient Management
-- Register new patients
-- Update patient records
-- Delete patient details
-- Search patient information
-
-### 📅 Appointment Management
-- Book appointments
-- View appointment history
-- Manage doctor schedules
-
-### 🔐 Authentication
-- Secure Login
-- Session Management
-- Logout functionality
-
-### 📊 Dashboard
-- Total Doctors
-- Total Patients
-- Total Staff
-- Total Appointments
-- Quick navigation cards
-
-### 🔍 Search & Filter
-- Real-time search
-- Role-based filtering
-- Responsive tables
+- 🏠 Hospital Dashboard
+- 👨‍⚕️ Hospital Staff Directory
+- 🔍 Search staff by Name, Email, or Phone
+- 🎯 Filter staff by Role
+- 📋 Sort table columns
+- 💾 SQLite Database
+- 📱 Responsive User Interface
 
 ---
 
 ## 🛠️ Technologies Used
 
-| Technology | Purpose |
-|------------|---------|
-| Python | Backend |
-| Flask | Web Framework |
-| SQLite | Database |
-| HTML5 | Frontend |
-| CSS3 | Styling |
-| Bootstrap 5 | Responsive UI |
-| JavaScript | Client-side functionality |
+- Python 3
+- Flask
+- SQLite3
+- HTML5
+- CSS3
+- Bootstrap 5
+- JavaScript
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
 ```
-CityCare-Hospital/
-│
-├── static/
-│   ├── css/
-│   ├── js/
-│   └── images/
+OMEGA HOSPITAL/
 │
 ├── templates/
-│   ├── index.html
-│   ├── login.html
-│   ├── dashboard.html
-│   ├── patients.html
-│   ├── doctors.html
-│   ├── staff.html
-│   └── appointments.html
-│
-├── database/
-│   └── hospital.db
+│   └── dashboard.html
 │
 ├── app.py
+├── hospital.db
 ├── requirements.txt
 └── README.md
 ```
 
 ---
 
-## ⚙️ Installation
+## 🚀 Installation
 
-### 1. Clone Repository
-
-```bash
-git clone https://github.com/yourusername/CityCare-Hospital.git
-```
-
-### 2. Go to Project Folder
+### 1. Clone the Repository
 
 ```bash
-cd CityCare-Hospital
+git clone https://github.com/your-username/omega-hospital.git
 ```
 
-### 3. Create Virtual Environment
+### 2. Navigate to the Project Folder
 
 ```bash
-python -m venv venv
+cd omega-hospital
 ```
 
-### 4. Activate Environment
+### 3. Create a Virtual Environment (Optional)
 
 Windows
 
 ```bash
+python -m venv venv
 venv\Scripts\activate
 ```
 
-Linux/Mac
+Linux/macOS
 
 ```bash
+python3 -m venv venv
 source venv/bin/activate
 ```
 
-### 5. Install Dependencies
+### 4. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 6. Run Application
+### 5. Run the Application
 
 ```bash
 python app.py
 ```
 
-### 7. Open Browser
+### 6. Open in Browser
 
 ```
 http://127.0.0.1:5000
@@ -146,78 +94,85 @@ http://127.0.0.1:5000
 
 ---
 
-## 🗄️ Database
+## 💾 Database
 
-Database used:
+This project uses **SQLite** as the backend database.
 
-- SQLite
+Database file:
 
-Main Tables:
-
-- Users
-- Doctors
-- Patients
-- Staff
-- Appointments
+```
+hospital.db
+```
 
 ---
 
-## 📸 Screenshots
+## 📷 Screenshots
 
-### Staff Directory
+### Dashboard
 
 > Add your project screenshot here.
 
 Example:
 
 ```
-README_images/staff-directory.png
+screenshots/dashboard.png
 ```
 
 ---
 
-## 🚀 Future Enhancements
+## 🔮 Future Enhancements
 
-- Online Payment System
-- Medical Reports Upload
-- Email Notifications
-- SMS Appointment Reminders
-- Pharmacy Management
-- Laboratory Module
+- Patient Management
+- Doctor Management
+- Appointment Booking
 - Billing System
-- Admin Analytics Dashboard
+- Pharmacy Management
+- Laboratory Management
+- Authentication & Authorization
+- Reports and Analytics
 - PDF Report Generation
 
 ---
 
-## 🎯 Learning Outcomes
+## 🎯 Learning Objectives
 
 This project demonstrates:
 
-- Flask CRUD Operations
-- SQLite Database Management
-- MVC Architecture
-- Responsive Web Design
-- Search & Filter Functionality
-- Authentication System
-- Dynamic HTML Rendering using Jinja2
+- Flask Web Development
+- SQLite Database Integration
+- CRUD Operations
+- Responsive UI Design
+- Search and Filter Functionality
+- Template Rendering using Jinja2
 
 ---
 
-## 👨‍💻 Author
+## 🤝 Contributing
 
-**Your Name**
+Contributions are welcome!
 
-B.Tech Computer Science Engineering
-
----
-
-## 📜 License
-
-This project is developed for educational purposes and can be modified for learning and research.
+1. Fork the repository.
+2. Create a new feature branch.
+3. Commit your changes.
+4. Push to your branch.
+5. Open a Pull Request.
 
 ---
 
-## ⭐ If you like this project
+## 📄 License
 
-Please give this repository a ⭐ on GitHub.
+This project is developed for educational purposes.
+
+---
+
+## 👩‍💻 Author
+
+**Chitikina Sri Harshitha**
+
+B.Tech – Computer Science & Engineering
+
+Gudlavalleru Engineering College
+
+---
+
+⭐ If you found this project useful, consider giving it a **Star** on GitHub.
