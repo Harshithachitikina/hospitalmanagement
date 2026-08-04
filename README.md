@@ -1,4 +1,4 @@
-# 🏥 Omega Hospital Management System
+# 🏥  Hospital Management System
 
 A simple and responsive **Hospital Management System** developed using **Python Flask** and **SQLite**. This project provides an easy-to-use interface for managing hospital staff information and can be extended to include patients, doctors, appointments, and billing.
 
